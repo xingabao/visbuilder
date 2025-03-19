@@ -1,3 +1,5 @@
+# remotes::install_github("xingabao/visbuilder")
+
 library(dplyr)
 library(visbuilder)
 
