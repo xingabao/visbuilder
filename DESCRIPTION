@@ -8,8 +8,7 @@ Description: Visualize big data with ease.
 License: MIT
 Encoding: UTF-8
 LazyData: true
-Imports:
-    R (>= 4.0.0)
 Depends:
+    R (>= 4.0.0),
     ggplot2 (>= 3.5.0),
     grid
