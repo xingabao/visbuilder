@@ -1,0 +1,15 @@
+Package: visbuilder
+Type: package
+Title: Visualize big data with ease.
+Version: 0.1.0
+Author: Abao Xing
+Maintainer: Abao Xing <albertxn@126.com>
+Description: Visualize big data with ease..
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2
+Depends:
+    R (>= 4.0.0),
+    ggplot2 (>= 3.5.0)
