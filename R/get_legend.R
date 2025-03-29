@@ -21,5 +21,11 @@ get_legend <- function(plot) {
   g <- ggplotGrob(plot)
   legend_index <- which(sapply(g$grobs, function(x) x$name) == "guide-box")
   legend <- g$grobs[[legend_index]]
+
+  legend + theme(
+    legend.background = element_blank(),
+    legend.box.background = element_blank(),
+    legend.key = element_blank()
+  )
   return(legend)
 }
