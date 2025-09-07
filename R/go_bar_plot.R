@@ -1,3 +1,4 @@
+# F4181
 #' Generate a GO Enrichment Bar Plot
 #'
 #' This function creates a bar plot for GO enrichment analysis results. It visualizes
@@ -304,7 +305,7 @@ go_bar_plot <- function(
       axis.ticks.y = element_blank(),
       axis.text.y = element_markdown(face = axis.text.y.face, family = axis.text.y.family, angle = axis.text.y.angle, hjust = axis.text.y.hjust, vjust = axis.text.y.vjust, size = axis.text.y.size, lineheight = axis.text.y.lineheight, margin = margin(t = axis.text.y.margin.t, r = axis.text.y.margin.r, b = axis.text.y.margin.b, l = axis.text.y.margin.l, unit = 'in')),
       axis.text.x = element_markdown(color = axis.text.x.color, face = axis.text.x.face, family = axis.text.x.family, angle = axis.text.x.angle, hjust = axis.text.x.hjust, vjust = axis.text.x.vjust, size = axis.text.x.size, lineheight = axis.text.x.lineheight, margin = margin(t = axis.text.x.margin.t, r = axis.text.x.margin.r, b = axis.text.x.margin.b, l = axis.text.x.margin.l, unit = 'in')),
-      axis.title.x = element_text(color = axis.title.x.color, face = axis.title.x.face, family = axis.title.x.family, angle = axis.title.x.angle, hjust = axis.title.x.hjust, vjust = axis.title.x.vjust, size = axis.title.x.size, lineheight = axis.title.x.lineheight, margin = margin(t =axis.title.x.margin.t, r = axis.title.x.margin.r, b = axis.title.x.margin.b, l = axis.title.x.margin.l, unit = 'in')),
+      axis.title.x = element_text(color = axis.title.x.color, face = axis.title.x.face, family = axis.title.x.family, angle = axis.title.x.angle, hjust = axis.title.x.hjust, vjust = axis.title.x.vjust, size = axis.title.x.size, lineheight = axis.title.x.lineheight, margin = margin(t = axis.title.x.margin.t, r = axis.title.x.margin.r, b = axis.title.x.margin.b, l = axis.title.x.margin.l, unit = 'in')),
       axis.line.x.bottom = element_line(color = "black"),
       panel.spacing = unit(0.05, "lines"),
       panel.background = element_rect(fill = "white", color = "transparent"),

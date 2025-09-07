@@ -1,3 +1,26 @@
+pal.xab <- function(n) {
+
+  basic = c("grey60", "#C33C2E", "#092044", "#BF9D09", '#FFA500', '#b23256', '#8bc24c', '#2196F3', '#3B3B98',
+    '#7F95D1', '#b4bb72', '#8A4B08', '#FFD700', '#d9534f',
+    '#FFFFFF', '#E09220', '#FFC48C', '#cfcecc', '#86519D',
+    '#EE4C97', '#2B5A41', '#2694ab', '#7F95D1', '#008080',
+    '#e59572', '#2694ab', '#d9534f', '#f6d04d', '#d9d9f3',
+    '#8bc24c', '#96ceb4', '#EAFFD0', '#A94CAF', '#0000A1',
+    '#a47c64', '#D3E397', '#20854E', '#7876B1', '#EE4C97',
+    '#837B8D', '#3D3B25', '#56c0ff', '#fc2403', '#03ffe6',
+    '#aa0012', '#121457', '#bc8420', '#527C5A', '#E76F51',
+    '#cfcecc', '#FADFE8', '#F4F1E2', '#E2F4F4', '#EEE2F4',
+    '#E3F4E2', '#FEFFBB', '#7FC97F', '#BEAED4', '#FDC086',
+    '#FFFF99')
+
+  extend <- grDevices::colorRampPalette(rev(RColorBrewer::brewer.pal(n = 11, name = 'Spectral')))(n)
+
+  if (n > length(basic)) {
+    return(extend)
+  }
+  return(basic)
+}
+
 pal.56.a <- c('#FFA500', '#b23256', '#8bc24c', '#2196F3', '#3B3B98',
               '#7F95D1', '#b4bb72', '#8A4B08', '#FFD700', '#d9534f',
               '#FFFFFF', '#E09220', '#FFC48C', '#cfcecc', '#86519D',
