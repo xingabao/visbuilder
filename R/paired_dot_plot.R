@@ -176,26 +176,26 @@ paired_dot_plot <- function(
   gg
 }
 
-plot.dat. <- read.csv("E:/BaiduSyncdisk/006.vis-Gallery/F/F3176/data/F3176.csv")
-paired_dot_plot(
-  plot.dat = plot.dat.,
-  col.x = 'Year',
-  col.y = 'Hours',
-  col.group = 'Entity',
-  # col.highlight = 'highlight',
-  # highlights = c('decrease', 'increase', 'same'),
-  highlights = plot.dat.$Entity, # c('Argentina', 'Austria', 'Luxembourg'),
-  # label.colors = 'red',
-  col.x.level = c(2017, 1970),
-  line.width.small = 0.5,
-  line.width.large = 1,
-  point.size.small = 1.5,
-  point.size.large = 3,
-
-  label.offset = 0.05,
-  label.accuracy = 0.1,
-  label.size = 11,
-  label.seed = 1234175,
-  legend = TRUE,
-  legend.title = 'SADA'
-) + theme(plot.margin = margin(t = 0.15, b = 0.15, l = 0.15, r = 0.15, unit = 'in'))
+# plot.dat. <- read.csv("E:/BaiduSyncdisk/006.vis-Gallery/F/F3176/data/F3176.csv")
+# paired_dot_plot(
+#   plot.dat = plot.dat.,
+#   col.x = 'Year',
+#   col.y = 'Hours',
+#   col.group = 'Entity',
+#   # col.highlight = 'highlight',
+#   # highlights = c('decrease', 'increase', 'same'),
+#   highlights = plot.dat.$Entity, # c('Argentina', 'Austria', 'Luxembourg'),
+#   # label.colors = 'red',
+#   col.x.level = c(2017, 1970),
+#   line.width.small = 0.5,
+#   line.width.large = 1,
+#   point.size.small = 1.5,
+#   point.size.large = 3,
+#
+#   label.offset = 0.05,
+#   label.accuracy = 0.1,
+#   label.size = 11,
+#   label.seed = 1234175,
+#   legend = TRUE,
+#   legend.title = 'SADA'
+# ) + theme(plot.margin = margin(t = 0.15, b = 0.15, l = 0.15, r = 0.15, unit = 'in'))
